@@ -1,0 +1,148 @@
+/*header*/
+.header{
+	padding:1px;
+	text-align:center;
+	background:#F7BF4F;
+}
+
+/*background color*/
+body {
+  background-color:white;
+}
+
+/*logo*/
+.logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:auto;
+}
+
+
+/*buttons(login/signup/guest)*/
+.btn {
+  background-color:#c48208;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.btn:hover {opacity: 0.6}
+
+/* Add a background color to the navigation bar */
+.nav {
+  overflow: hidden;
+  background-color:#f5a30a;
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover navigation bar */
+.nav a:hover {
+  background-color:#fbda9d;
+  color: black; 
+}
+
+/* Style the "active" element to highlight the current page */
+.nav a.active {
+  background-color:#000000;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.nav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .nav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  /*search box*/
+  .nav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+.footer {
+  padding: 1px;
+  text-align: center;
+  background:#A88746;
+  color:white;
+}
+
+.copy{
+	font-size:10px;
+	color:white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background:#f9d385;
+  color:#A88746;
+}
+
+/* Twitter */
+.fa-twitter {
+  background:#f9d385;
+  color:#A88746;
+}
+
+/*youtube*/
+.fa-youtube {
+  background:#f9d385;
+  color:#A88746;
+}
+
+/*linkedin*/
+.fa-linkedin {
+  background:#f9d385;
+  color:#A88746;
+}
+
+/*google*/
+.fa-google {
+  background:#f9d385;
+  color:#A88746;
+}
+

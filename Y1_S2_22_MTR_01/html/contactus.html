@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>  
+<html>
+<head>
+<title>Contact Us</title>
+
+<!add favicon>
+<link rel="icon" type="image/x-icon" href="../images/favicon.png">
+
+<link rel="stylesheet" href="../css/home.css">
+<link rel="stylesheet" href="../css/contactus.css">
+
+<!style sheet of social media icons>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<!--header-->
+<div class="header">
+<a href="../home/homepage.html">
+<img class="logo" src="../images/logo.png" width="200" height="200"></a>
+<button class="btn" onclick="location.href='login.html';"><span>Login</span></button>
+<button class="btn" onclick="location.href='regselection.html';"><span>Sign Up</span></button>
+<button class="btn" onclick="location.href='book.php';"><span>Guest</span></button>
+</div>
+
+<!--navigation bar-->
+<div class="nav">
+<a href="../home/homepage.html">Home</a>
+<a href="about.php">About Us</a>
+<a href="feedback.html">Feedback</a>
+<a href="news.html">News</a>
+<a class="active" href="contactus.html">Contact Us</a>
+<input type="text" placeholder="Search..">
+</div>
+
+<div class="container">
+	<h1>Contact Us<br></h1>
+	<br>
+	<p>We would appreciate receiving your message in order to improve our service...</p>
+	
+	<div class="contact-box">
+		<div class="contact-left">
+			<h3>Send your request</h3>
+			<br>
+			<form method="post" action="contactuscheck.php">
+				   
+				<div class="input1-row">
+					<div class="Name">
+						<label>Name</label>
+						<input type="text" name="name" placeholder="Kamal Perera">
+						</div>
+						
+					<div class="input1-group">
+						<label>Email</label>
+						<input type="email" name="email" placeholder="abcdefghi@gmail.com">
+						</div>	
+							
+				</div> 
+			
+
+				<label>Message</label>
+				<textarea  name="message" placeholder="Your Message"></textarea>
+				<br><br>
+				<button type="submit" class="btn">SEND</button>
+				
+				
+			</form>
+		</div>
+		<div class="contact-right"> 
+			<h3>Hotlines</h3>
+			<table>
+				<tr>
+					<td>General Inquiries<br>+94717485125</td>
+					<td>Business Inquiries<br>+94717731048</td>
+				
+				</tr>
+				
+				<tr>
+					<td>Media &Marketing<br>media@taxio.lk</td>
+					<td>Other<br>support@taxio.lk</td>
+				</tr>
+			</table>
+			
+	 	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!footer>
+<div class="footer">
+<h2>Follow Us On</h2>
+<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+<a href="https://twitter.com" class="fa fa-twitter"></a>
+<a href="https://www.youtube.com" class="fa fa-youtube"></a>
+<a href="https://lk.linkedin.com" class="fa fa-linkedin"></a>
+<a href="https://www.google.com" class="fa fa-google"></a>
+
+<p class="bottom">+94 714 312 589</p>
+<p class="bottom">taxioonlinetaxi@gmail.com</p>
+<p class="bottom">No.23/A, Camelia building, Dharmapala Road, Matara</p><br>
+<img class="logo" src="../images/logo foot.png" alt="" width="70" height="70">
+<p class="copy">© Copyright Taxio 2022 . All Rights Reserved</p>
+</div>
+
+</body>
+</html>
